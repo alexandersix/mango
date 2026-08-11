@@ -4,3 +4,4 @@ systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP XDG_SESS
 systemctl --user restart xdg-desktop-portal-wlr.service
 
 noctalia &
+solaar --window=hide &
