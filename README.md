@@ -18,7 +18,7 @@ If `~/.config/mango` already exists, back it up or copy the files from this repo
 
 - `config.conf` contains the main Mango configuration and keybindings.
 - `application-rules.conf` contains per-application window rules.
-- `autostart.sh` imports the Wayland session environment, restarts `xdg-desktop-portal-wlr`, and starts Noctalia.
+- `autostart.sh` imports the Wayland session environment, restarts `xdg-desktop-portal-wlr`, starts Noctalia and Solaar, and starts Mouseless when its per-user Flatpak is installed.
 - `noctalia.conf` contains generated theme colors. It is intentionally ignored because Noctalia recreates it when it manages Mango's theme.
 
 ## Before using this configuration
